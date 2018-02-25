@@ -1,3 +1,3 @@
 <?php
-echo "Hola mundo";
+header('Location:/index.html');
 ?>
