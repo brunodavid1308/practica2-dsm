@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>UpnaShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-primary">
+	<a href="#">            
+		<img src="logo.png" class="d-inline-block align-top">         
+    </a>
+</nav>        
+
+<div class="container" style="padding-top:20px">
+  <div class="row">
+    <div class="col-md-12 col-sm-6">
+      <h2>Productos</h2>
+	</div>    
+    <div class="col-12 col-md-4 col-lg-4 product-1">      
+		<a href="#1" class="expandir1">
+			<img class="img-fluid img-portfolio img-hover mb-3 rounded mx-auto d-block" src="2_large.png" alt="Dualshock Controller for PlayStation 4">
+		</a>
+
+		<div class="caption oculto" id="1">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" id="1-tab" data-toggle="tab" href="#producto1-1" role="tab" aria-selected="true">Imagen</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="2-tab" data-toggle="tab" href="#producto1-2" role="tab"  aria-selected="false">Descripción</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="3-tab" data-toggle="tab" href="#producto1-3" role="tab"  aria-selected="false">Precio</a>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="producto1-1" role="tabpanel" aria-labelledby="1-tab">
+				<div id="gallery">
+				  <div id="panel">
+					<img id="largeImage" class="img-fluid rounded mx-auto d-block" src="2_large.png"/>
+				  </div>
+				  <div id="thumbs">
+					<div class="row">
+						<div class="col 4 col-md-4 ">
+							<img src="2_thumb.png" class="rounded mx-auto d-block"/>
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="2_thumb_1.png" class="rounded mx-auto d-block"/>
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="2_thumb_2.png".png" class="rounded mx-auto d-block"/>
+						</div>											
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="tab-pane fade"  id="producto1-2" role="tabpanel" aria-labelledby="2-tab">
+				<h4>
+					<span class="product-block-not-available">Apple iMac</span>
+				</h4>
+				<div class="clearfix"></div>
+				<p class="product-block-description hidden-sm-down">
+					Ser un ordenador de mesa deslumbrante en todos los sentidos. Ese ha sido siempre el objetivo del iMac. Y ahora, con procesadores nuevos, lo último en gráficos y en almacenamiento y conexiones ultrarrápidas cumple la misión con creces. El iMac ha vuelto y su estrella brilla cada vez más.
+				</p>
+			  </div>
+			  <div class="tab-pane fade"  id="producto1-3" role="tabpanel" aria-labelledby="3-tab">
+				<form class="form-horizontal" action="/cart/add/224304" method="post" enctype="multipart/form-data" name="buy">
+				<div>
+
+				<div class="form-group price_elem row">
+				  <label class="col-sm-3 col-md-3 form-control-label nopaddingtop">Precio:</label>
+				  <div class="col-sm-8 col-md-9">
+					<span class="product-form-price" id="product-form-price">1250.99</span>€            
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="Quantity" class="col-sm-3 col-md-3 form-control-label">Cantidad:</label>
+				  <div class="col-sm-8 col-md-9 producto" data-precio='1250.99'>
+				   
+					<input type="number" class="qty form-control cantidad" max=99 min=0 value="0">
+				  </div>
+				</div>
+				</div>
+				</form>
+			  </div>
+			</div>
+			
+		</div>
+
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 product-2">
+		<a href="#2"class="expandir2">
+			<img class="img-fluid img-portfolio img-hover mb-3 rounded mx-auto d-block" src="3_large.png" alt="Asus Transformer Pad Tablet">
+		</a>
+		<div class="caption2 oculto" id="2">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" id="4-tab" data-toggle="tab" href="#producto2-1" role="tab" aria-selected="true">Imagen</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="5-tab" data-toggle="tab" href="#producto2-2" role="tab" aria-selected="false">Descripción</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="6-tab" data-toggle="tab" href="#producto2-3" role="tab" aria-selected="false">Precio</a>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="producto2-1" role="tabpanel" aria-labelledby="4-tab">
+				<div id="gallery">
+				  <div id="panel">
+					<img id="largeImage2" class="img-fluid rounded mx-auto d-block" src="3_large.png"/>
+				  </div>
+				  <div id="thumbs2">
+					<div class="row">
+						<div class="col 4 col-md-4 ">
+							<img src="3_thumb.png" class="rounded mx-auto d-block"/>
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="3_thumb_1.png" class="rounded mx-auto d-block"/>
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="3_thumb_2.png" class="rounded mx-auto d-block"/>
+					</div>											
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="tab-pane fade" id="producto2-2" role="tabpanel" aria-labelledby="5-tab">				
+				<h4>
+					<span>ASUS Transformer Book T101HA</span>
+				</h4>
+				<div class="clearfix"></div>
+				<p class="product-block-description hidden-sm-down">
+				Cuando diseñamos la tableta del Transformer Book T101HA, utilizamos aluminio para lograr que fuera robusta, ligera y fina. Su tacto es espectacular y es capaz de resistir los rigores del día a día. Está disponible en tres alegres colores, oro glacial, oro rosa y verde menta, para que elijas el T101HA que mejor se ajusta a tu estilo. El patrón de panal de abeja del teclado le da un toque especial, se han cuidado hasta los detalles más nimios.
+				</p>
+			  </div>
+			  <div class="tab-pane fade" id="producto2-3" role="tabpanel" aria-labelledby="6-tab">
+				<form class="form-horizontal" action="/cart/add/224304" method="post" enctype="multipart/form-data" name="buy">
+				<div>
+
+				<div class="form-group price_elem row">
+				  <label class="col-sm-3 col-md-3 form-control-label nopaddingtop">Precio:</label>
+				  <div class="col-sm-8 col-md-9">
+					<span class="product-form-price" id="product-form-price">659.99</span>€            
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="Quantity" class="col-sm-3 col-md-3 form-control-label">Cantidad:</label>
+				  <div class="col-sm-8 col-md-9 producto2" data-precio='659.99'>
+				   
+					<input type="number" class="qty form-control cantidad2" max=99 min=0 value="0">
+				  </div>
+				</div>                  
+				</div>		
+				</form>
+			  </div>
+			</div>
+			
+		</div>
+
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 product-3">
+		<a href="#3" class="expandir3">
+			<img class="img-fluid img-portfolio img-hover mb-3 rounded mx-auto d-block" src="1_large.png" alt="DualShock Controller for PlayStation 4">
+		</a>
+		<div class="caption3 oculto" id="3">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" id="7-tab" data-toggle="tab" href="#producto3-1" role="tab" aria-selected="true">Imagen</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="8-tab" data-toggle="tab" href="#producto3-2" role="tab" aria-selected="false">Descripción</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="9-tab" data-toggle="tab" href="#producto3-3" role="tab" aria-selected="false">Precio</a>
+			  </li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="producto3-1" role="tabpanel" aria-labelledby="7-tab">
+				<div id="gallery">
+				  <div id="panel">
+					<img id="largeImage3" class="img-fluid rounded mx-auto d-block" src="1_large.png"/>
+				  </div>
+				  <div id="thumbs3">
+					<div class="row">
+						<div class="col 4 col-md-4 ">
+							<img src="1_thumb.png" class="rounded mx-auto d-block" alt="1st image description" />
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="1_thumb_1.png" class="rounded mx-auto d-block"alt="2nd image description" />
+						</div>
+						<div class="col-4 col-md-4 ">
+							<img src="1_thumb_2.png" class="rounded mx-auto d-block" alt="3rd image description" />
+						</div>
+					</div>	
+				  </div>
+				</div>
+			  </div>
+			  <div class="tab-pane fade" id="producto3-2" role="tabpanel" aria-labelledby="8-tab">
+				<h4>
+					<span class="product-block-not-available">Mando inalámbrico-Sony PS4</span>
+				</h4>
+				<div class="clearfix"></div>
+				<p class="product-block-description hidden-sm-down">
+					El mando oficial de la nueva generación de consolas de Sony ya esta aquí: Dual Shock 4. Además de joysticks más precisos y sensores de movimiento incorporados, DUALSHOCK®4 cuenta también con controles táctiles y el botón SHARE, una inspiración para experimentar nuevas formas de jugar.    
+				</p>
+			  </div>
+			  <div class="tab-pane fade" id="producto3-3" role="tabpanel" aria-labelledby="9-tab">
+				<form class="form-horizontal" action="/cart/add/224304" method="post" enctype="multipart/form-data" name="buy">
+				<div>
+
+				<div class="form-group price_elem row">
+				  <label class="col-sm-3 col-md-3 form-control-label nopaddingtop">Precio:</label>
+				  <div class="col-sm-8 col-md-9">
+					<span class="product-form-price" id="product-form-price">59.99</span>€         
+				  </div>
+				</div>
+				<div class="form-group row">
+				  <label for="Quantity" class="col-sm-3 col-md-3 form-control-label">Cantidad:</label>
+				  <div class="col-sm-8 col-md-9 producto3" data-precio='59.99'>
+					<input type="number" class="form-control cantidad3" max=99 min=0 value="0">
+				  </div>
+				</div>                
+				</div>
+				</form>
+			  </div>
+			</div>
+			
+		</div>
+    </div>
+  </div>
+
+<div class="row" style="margin-top:50px;">
+		<div class="col-md-12 col-sm-12 col-12 col-lg-12">
+		  <h2>Cesta</h2>
+		</div>
+</div>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-6">
+		<div class="row">
+			<div class="col-lg-4 col-4">
+			<img src="2_thumb.png" class="rounded mx-auto d-block" />
+			</div>
+			<div class="col-lg-8 col-8 align-middle">				
+				<form class="form-horizontal">
+				<div>
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Cantidad:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span class="cantidadtotal1">0</span></p>
+				  </div>
+				</div>
+				
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Total:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span id="total1">0</span>€</p>
+				  </div>
+				</div>                   
+				</div>
+				</form>
+			  
+			</div>
+		</div>
+		<hr style="color: #6c757d5e;" />
+		<div class="row">
+			<div class="col-lg-4 col-4">
+			<img src="3_thumb.png" class="rounded mx-auto d-block" />
+			</div>
+			<div class="col-lg-8 col-8 align-middle">				
+				<form class="form-horizontal">
+				<div>
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Cantidad:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span class="cantidadtotal2">0</span></p>
+				  </div>
+				</div>
+				
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Total:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span id="total2">0</span>€</p>
+				  </div>
+				</div>                   
+				</div>
+				</form>
+			  
+			</div>
+		</div>
+		<hr style="color: #6c757d5e;" />
+		<div class="row">
+			<div class="col-lg-4 col-4">
+			<img src="1_thumb.png" class="rounded mx-auto d-block" />
+			</div>
+			<div class="col-lg-8 col-8 align-middle">				
+				<form class="form-horizontal">
+				<div>
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Cantidad:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span class="cantidadtotal3">0</span></p>
+				  </div>
+				</div>
+				
+				<div class="form-group row">
+				  <label class="col-sm-8 col-md-4 col-8 form-control-label">Total:</label>
+				  <div class="col-sm-4 col-md-8 col-4">
+					<p><span id="total3">0</span>€</p>
+				  </div>
+				</div>                   
+				</div>
+				</form>
+			  
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-6">
+			<form class="form-horizontal">
+					<div>
+						<div class="form-group row">
+						  <label class="col-sm-6 col-md-6 form-control-label font-weight-bold">Precio Total del Pedido:</label>
+						  <div class="col-sm-6 col-md-6 description3">
+							<p><span id="totalfinal">0</span>€</p>
+						  </div>
+						</div>
+						<div >
+							<button type="button" class="btn btn-primary">Comprar</button>
+						</div>
+					</div>
+			</form>
+	</div>
+</div>
+</div>
+
+    <!-- Script to Activate Tooltips -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
